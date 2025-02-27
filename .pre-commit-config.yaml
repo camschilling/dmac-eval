@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/camschilling/dmac-eval
+    rev: v0.9.7  # Use the latest version available
+    hooks:
+      - id: ruff
