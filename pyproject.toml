@@ -94,4 +94,5 @@ unfixable = [
   "ARG001",
   "PLR2004"
   ]
-  "execute.py" = ["T201"]
+  "execute.py" = ["T201", "E501"]
+  "dmac_eval/report/document.py" = ["E501"]
