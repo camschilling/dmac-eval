@@ -55,7 +55,7 @@ def read_single_month_excel(
 
     """
     # Read all sheets into a dictionary of DataFrames
-    nrows = row_end - row_skip
+    nrows = row_end - row_skip - 1
     return pd.read_excel(file_path, sheet_name=None, header=row_skip, nrows=nrows)
 
 

@@ -16,9 +16,9 @@ def test_remove_dupes_in_col_names():
     l1 = [1, 2]
     l2 = [5, 6]
     l3 = [3, 4]
-    df = pd.DataFrame(
-        {"colA": [1, 2], "colB": [None, 1], "colA": [3, 4]},  # noqa: F601
-    )
+    # df = pd.DataFrame(
+    #     {"colA": [1, 2], "colB": [None, 1], "colA": [3, 4]},
+    # )
     df = pd.DataFrame(
         list(zip(l1, l2, l3, strict=True)),
         columns=["colA", "colB", "colA"],
