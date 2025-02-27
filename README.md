@@ -23,7 +23,7 @@ pip install -r requirements.txt
 Includes linting at this stage. `pre-commit run --all-files`
 
 ### Linting
-Uses ruff. `ruff check . --fix
+Uses ruff. `ruff check . --fix`
 
 ### Testing
 Uses pytest. 
