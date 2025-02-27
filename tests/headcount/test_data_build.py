@@ -3,7 +3,7 @@ from datetime import date
 import pandas as pd
 import pytest
 
-from src.headcount.data_build import (
+from dmac_eval.headcount.data_build import (
     add_static_date_column,
     prepare_month_df,
     read_single_month_excel,
