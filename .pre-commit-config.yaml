@@ -1,5 +1,10 @@
 repos:
-  - repo: https://github.com/camschilling/dmac-eval
-    rev: v0.9.7  # Use the latest version available
-    hooks:
-      - id: ruff
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  # Ruff version.
+  rev: v0.9.7
+  hooks:
+    # Run the linter.
+    - id: ruff
+      args: [ --fix ]
+    # Run the formatter.
+    - id: ruff-format
